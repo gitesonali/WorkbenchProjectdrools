@@ -45,6 +45,11 @@
       <version>1.4.15</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>com.myspace</groupId>
+      <artifactId>test</artifactId>
+      <version>1.0.0-SNAPSHOT</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
