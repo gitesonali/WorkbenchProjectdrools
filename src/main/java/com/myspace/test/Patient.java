@@ -6,12 +6,25 @@ package com.myspace.test;
 
 public class Patient implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Patient() {
-    }
+	public Patient() {
+	}
 
-
-
+	@Override
+	public String toString() {
+		return "{" + " age='" + getAge() + "'" + ", categotyReason='"
+				+ getCategotyReason() + "'" + ", selectedEvent='"
+				+ getSelectedEvent() + "'" + ", selectedEventId='"
+				+ getSelectedEventId() + "'" + ", payer='" + getPayer() + "'"
+				+ ", annualwellnessdatePriorBy='"
+				+ getAnnualwellnessdatePriorBy() + "'"
+				+ ", proceduredatePriorBy='" + getProceduredatePriorBy() + "'"
+				+ ", concussion='" + getConcussion() + "'"
+				+ ", establishedPatient='" + getEstablishedPatient() + "'"
+				+ ", hasPCP='" + getHasPCP() + "'"
+				+ ", annualphysicaldatePriorBy='"
+				+ getAnnualphysicaldatePriorBy() + "'" + "}";
+	}
 
 }
