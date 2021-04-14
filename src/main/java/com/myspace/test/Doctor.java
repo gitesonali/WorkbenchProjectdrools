@@ -6,12 +6,23 @@ package com.myspace.test;
 
 public class Doctor implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Doctor() {
-    }
+	private java.lang.Integer id;
 
+	public Doctor() {
+	}
 
+	public java.lang.Integer getId() {
+		return this.id;
+	}
 
+	public void setId(java.lang.Integer id) {
+		this.id = id;
+	}
+
+	public Doctor(java.lang.Integer id) {
+		this.id = id;
+	}
 
 }
